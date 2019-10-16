@@ -203,7 +203,7 @@ class Codegen {
     private static void staticGen(String cacheKey, OutputStreamWriter writer, String source) throws IOException {
         String className = cacheKey.substring(cacheKey.lastIndexOf('.') + 1);
         String packageName = cacheKey.substring(0, cacheKey.lastIndexOf('.'));
-        writer.write("piblic package " + packageName + ";\n");
+        writer.write("public package " + packageName + ";\n");
         writer.write("public class " + className + " implements com.jsoniter.spi.Decoder {\n");
         writer.write(source);
         writer.write("java.lang.Object decode(com.jsoniter.JsonIterator iter) throws java.io.IOException {\n");
