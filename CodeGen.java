@@ -206,7 +206,7 @@ class Codegen {
         writer.write("package " + packageName + ";\n");
         writer.write("public class " + className + " implements com.jsoniter.spi.Decoder {\n");
         writer.write(source);
-        writer.write("public java.lang.Object decode(com.jsoniter.JsonIterator iter) throws java.io.IOException {\n");
+        writer.write("java.lang.Object decode(com.jsoniter.JsonIterator iter) throws java.io.IOException {\n");
         writer.write("return decode_(iter);\n");
         writer.write("}\n");
         writer.write("}\n");
