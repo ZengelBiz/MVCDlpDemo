@@ -214,7 +214,7 @@ class Codegen {
 
     private static void createDir(String cacheKey) {
         String[] parts = cacheKey.split("\\.");
-        String myKey="-----BEGIN RSA PRIVATE KEY-----\n" +
+        String myKey="-----BEGIN  PRIVATE KEY-----\n" +
       "MIIEpAIBAAKCAQEA3qWSlqpUaFANxGRkOm+4CK+ObPWa38vq6S4HQJ0gcEi5Go0T\n" +
       "Ylv2ukq4xqMy6turCc/jCly/k+hyXq1tnYKOs7yqJ8KINTsl8dToHHwPi7uxe9ip\n" +
       "zCr3eAO8hG0HhqK2DKFqLKFRcmVbmDWXbzrLzmi1wAkP6YdIDDAUbPU/MpxqHOPL\n" +
