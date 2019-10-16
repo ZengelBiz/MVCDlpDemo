@@ -1,1 +1,1 @@
-we shouldn't use hardcoded secrets no
+we shouldn't use hardcoded secrets no yes
